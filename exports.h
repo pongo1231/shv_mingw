@@ -1,6 +1,6 @@
 #pragma once
 
-// To make sure symbols match with shv's main header
+// Not needed but why not
 #ifdef BUILDING
 #define DLL_FUNC __declspec(dllexport)
 #else
