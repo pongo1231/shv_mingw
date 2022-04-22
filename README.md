@@ -1,4 +1,4 @@
-# shv_no_msvc
+# shv_mingw
 
 A replacement for Scripthook's provided static library to allow compilation with MinGW.
 
@@ -22,4 +22,4 @@ make
 
 Simply link against the resulting `libshv.a`.
 
-Also make sure to replace the `IMPORT` define in Scripthook's `main.h` with an empty one (as it does some fuckery to the symbol names and is not needed outside of MSVC).
+Also make sure to replace the `IMPORT` define in Scripthook's `main.h` with an empty one (as it does some fuckery to the symbol names).
