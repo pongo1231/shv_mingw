@@ -9,6 +9,6 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
 else()
     add_definitions(-municode)
 endif()
-target_compile_options(ChaosModV PRIVATE ${COMPILE_OPTIONS})
+target_compile_options(shv PRIVATE ${COMPILE_OPTIONS})
 
 add_subdirectory(shv_test)
